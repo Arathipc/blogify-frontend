@@ -6,7 +6,7 @@ import ScrollToTop from "./component/common/ScrollToTop";
 function App() {
   return (
     
-      <BrowserRouter>
+      <BrowserRouter  basename="/blogify">
         <ScrollToTop />
         <Toaster position="top-right" reverseOrder={false} />
         <UserRoute />

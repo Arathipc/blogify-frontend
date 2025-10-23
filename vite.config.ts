@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
    
   ],
-   base: '/blogify-frontend/',
+   base: '/',
 });
